@@ -1,0 +1,59 @@
+.audio-recording-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recording-time {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #eb0b0b;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .recording-button, .cancel-button, .upload-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .recording-button.start {
+    background-color: #28a745;
+  }
+  
+  .recording-button.stop {
+    background-color: #dc3545;
+  }
+  
+  .cancel-button {
+    background-color: #6c757d;
+  }
+  
+  .upload-button {
+    background-color: #ffc107;
+  }
+  
+  .recording-button:hover, .cancel-button:hover, .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .recording-button:active, .cancel-button:active, .upload-button:active {
+    background-color: #004494;
+  }
+  
