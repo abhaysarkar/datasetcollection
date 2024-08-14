@@ -58,7 +58,7 @@ function Addpres() {
 
     openConfirmModal(async () => {
       try {
-        const response = await axios.post(`https://datacollection-backend-eb040f587829.herokuapp.com/y6api/medical-fields/${mediacalFieldId}/sub-departments`, subDept, {
+        const response = await axios.post(`https://datacollection-backend-eb040f587829.herokuapp.com/api/medical-fields/${mediacalFieldId}/sub-departments`, subDept, {
           headers: {
             'Content-Type': 'application/json',
           },
