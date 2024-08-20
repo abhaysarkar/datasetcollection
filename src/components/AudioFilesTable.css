@@ -59,6 +59,112 @@
 
 
 
+/* .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    table-layout: fixed;
+    width: 105%;
+    font-size: 15px; 
+}
+
+.table th, .table td {
+    padding: 2px; 
+    word-wrap: break-word;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+.table td audio {
+    max-width: 200px;
+    margin-left: -50px;
+    
+}
+
+.gender{
+    width: 70px;
+    margin-left: -20px;
+    
+}
+.age{
+    width: 35px;
+    margin-left: -200px;
+}
+
+.id{
+    width:30px;
+}
+
+.state{
+    width:150px
+
+}
+.city{
+    width:60px;
+    margin-left:-20px;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    list-style: none;
+}
+
+.page-item {
+    margin: 0 0.25rem;
+}
+
+.page-link {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page-link:hover {
+    background-color: #e9ecef;
+}
+
+.page-link:focus {
+    outline: none;
+}
+
+.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+h1{
+    color: white;
+}
+
+ */
+
+
 .container-fluid {
     display: flex;
     flex-direction: column;
@@ -74,7 +180,7 @@
 .table {
     table-layout: fixed;
     width: 105%;
-    font-size: 15px; /* Decrease font size */
+    font-size: 15px;
 }
 
 .table th, .table td {
