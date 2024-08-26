@@ -236,37 +236,37 @@ const FileUpload = ({ email, medicalField, subDepartment, sid, mfid }) => {
     }
   };
 
-  const handleCapture = async () => {
-    const video = document.createElement('video');
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
+  // const handleCapture = async () => {
+  //   const video = document.createElement('video');
+  //   const canvas = document.createElement('canvas');
+  //   const ctx = canvas.getContext('2d');
 
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-      video.srcObject = stream;
-      video.play();
+  //   try {
+  //     const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+  //     video.srcObject = stream;
+  //     video.play();
 
-      document.body.appendChild(video);
-      document.body.appendChild(canvas);
+  //     document.body.appendChild(video);
+  //     document.body.appendChild(canvas);
 
-      video.addEventListener('click', () => {
-        canvas.width = video.videoWidth;
-        canvas.height = video.videoHeight;
-        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-        video.srcObject.getTracks().forEach(track => track.stop());
-        const dataURL = canvas.toDataURL('image/png');
-        canvas.remove();
-        video.remove();
+  //     video.addEventListener('click', () => {
+  //       canvas.width = video.videoWidth;
+  //       canvas.height = video.videoHeight;
+  //       ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  //       video.srcObject.getTracks().forEach(track => track.stop());
+  //       const dataURL = canvas.toDataURL('image/png');
+  //       canvas.remove();
+  //       video.remove();
 
-        const blob = dataURLtoBlob(dataURL);
-        const file = new File([blob], 'captured_image.png', { type: 'image/png' });
-        setSelectedFile(file);
-      });
-    } catch (error) {
-      console.error('Error accessing camera:', error);
-      alert('Error accessing camera');
-    }
-  };
+  //       const blob = dataURLtoBlob(dataURL);
+  //       const file = new File([blob], 'captured_image.png', { type: 'image/png' });
+  //       setSelectedFile(file);
+  //     });
+  //   } catch (error) {
+  //     console.error('Error accessing camera:', error);
+  //     alert('Error accessing camera');
+  //   }
+  // };
 
   const dataURLtoBlob = (dataURL) => {
     const arr = dataURL.split(',');
@@ -297,9 +297,9 @@ const FileUpload = ({ email, medicalField, subDepartment, sid, mfid }) => {
           <button onClick={handleUpload} className="btn btn-primary">
             Upload File
           </button>
-          <button onClick={handleCapture} className="btn btn-secondary">
+{/*           <button onClick={handleCapture} className="btn btn-secondary">
             Capture Image
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
