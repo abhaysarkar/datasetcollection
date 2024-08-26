@@ -7,9 +7,13 @@ import Login from './components/Login';
 import MainPage from './components/MainPage';
 import UserForm from './components/UserForm';
 import AudioFilesTable from './components/AudioFilesTable';
+import ImageFilesTable from './components/ImageFilesTable';
 import './App.css';
 import AdminLoginForm from './components/AdminLoginForm';
-import Addpres from './components/Addpres'
+import AudioAddpres from './components/AudioAddpres';
+import ImageAddpres from './components/ImageAddpres'
+import ImageMain from './components/ImageMain';
+
 
 const App = () => {
   const [isVerified, setIsVerified] = useState(false);
@@ -32,8 +36,11 @@ const App = () => {
           <Route path="/main" element={<MainPage />} />
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/adminloginpage" element={<AdminLoginForm />} />
-          <Route path="/adminpage" element={<AudioFilesTable />}/>
-          <Route path="/addpres" element={<Addpres />}/>
+          <Route path="/audio-adminpage" element={<AudioFilesTable />}/>
+          <Route path="/image-adminpage" element={<ImageFilesTable />}/>
+          <Route path="/audio-addpres" element={<AudioAddpres />}/>
+          <Route path="/image-addpres" element={<ImageAddpres />}/>
+          <Route path="/image" element={<ImageMain />}/>
 
         </Routes>
       </div>
