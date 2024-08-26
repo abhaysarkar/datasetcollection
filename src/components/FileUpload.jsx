@@ -169,7 +169,7 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 const FileUpload = ({ email, medicalField, subDepartment, sid, mfid }) => {
   const [selectedFile, setSelectedFile] = useState(null);
