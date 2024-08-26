@@ -20,7 +20,8 @@
     "react-paginate": "^8.2.0",
     "react-router-dom": "^6.24.1",
     "react-select": "^5.8.0",
-    "react-swipeable": "^7.0.1"
+    "react-swipeable": "^7.0.1",
+    "bootstrap": "^5.3.3"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
