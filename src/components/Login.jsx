@@ -29,11 +29,13 @@ const Login = ({ onVerify }) => {
   };
 
   const handleRedirect = () => {
-    window.location.href = 'http://localhost:5173/';
+    // window.location.href = 'http://localhost:5173/';
+    navigate('*')
   };
 
   const handleAdminLogin = () => {
-    window.location.href = 'http://localhost:5173/adminloginpage';
+    // window.location.href = 'http://localhost:5173/adminloginpage';
+    navigate('/adminloginpage');
   }
 
 
