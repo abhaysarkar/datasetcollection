@@ -293,7 +293,7 @@ const FileUpload = ({ email, medicalField, subDepartment, sid, mfid }) => {
             onChange={handleFileChange}
           />
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="container-fluid justify-content-center">
           <button onClick={handleUpload} className="btn btn-primary">
             Upload File
           </button>
