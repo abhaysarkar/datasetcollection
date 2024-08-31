@@ -265,7 +265,7 @@ const ImageMain = () => {
       if (selectedSubDept) {
         setDescription(selectedSubDept.description);
 
-        fetch(`http://localhost:8080/apii/read-status?email=${email}&subDeptId=${selectedSubDeptId}`)
+        fetch(`https://datacollection-backend-eb040f587829.herokuapp.com/apii/read-status?email=${email}&subDeptId=${selectedSubDeptId}`)
           .then(response => response.json())
           .then(data => {
             if (data.read) {
@@ -310,7 +310,7 @@ const ImageMain = () => {
       setReadSubDepartments(prevState => new Set(prevState).add(selectedSubDeptId));
       setIsRead(true);
 
-      fetch('http://localhost:8080/apii/mark-as-read', {
+      fetch('https://datacollection-backend-eb040f587829.herokuapp.com/apii/mark-as-read', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
