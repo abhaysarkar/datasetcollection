@@ -327,8 +327,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const FileUpload = ({ email, medicalField, subDepartment, markAsRead }) => {
   const [selectedFile, setSelectedFile] = useState(null);
-  const [audioUrl, setAudioUrl] = useState('');
-
+  const [loading, setLoading] = useState(false);
 
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
@@ -346,28 +345,23 @@ const FileUpload = ({ email, medicalField, subDepartment, markAsRead }) => {
     formData.append('medicalField', medicalField);
     formData.append('subDepartment', subDepartment);
 
+    setLoading(true); // Start loading
+
     try {
       const response = await axios.post('https://datacollection-backend-eb040f587829.herokuapp.com/api/image/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
       });
-      //alert(`File uploaded successfully: ${response.data}`);
       alert(`Image file uploaded successfully \n${response.data}`);
     } catch (error) {
       console.error('Error uploading file:', error);
       alert('Error uploading file');
+    } finally {
+      setLoading(false); // Stop loading
+      markAsRead();
     }
-
-    console.log('jai shree krishna');
-    
-    markAsRead();
   };
-
-
-
-  
-  
 
   const handleCapture = async () => {
     const video = document.createElement('video');
@@ -415,7 +409,6 @@ const FileUpload = ({ email, medicalField, subDepartment, markAsRead }) => {
 
   return (
     <div className="container pt-5">
-
       <div className="row justify-content-center">
         <div className="form-group mb-3">
           <label htmlFor="file" className="form-label text-secondary">Upload Image File or Capture Image</label>
@@ -427,10 +420,17 @@ const FileUpload = ({ email, medicalField, subDepartment, markAsRead }) => {
           />
         </div>
         <div className="d-flex justify-content-between">
-          <button onClick={handleUpload} className="btn btn-primary">
-            Upload File
+          <button onClick={handleUpload} className="btn btn-primary" disabled={loading}>
+            {loading ? (
+              <>
+                <span className="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                Uploading...
+              </>
+            ) : (
+              'Upload File'
+            )}
           </button>
-          <button onClick={handleCapture} className="btn btn-secondary">
+          <button onClick={handleCapture} className="btn btn-secondary" disabled={loading}>
             Capture Image
           </button>
         </div>
@@ -440,5 +440,3 @@ const FileUpload = ({ email, medicalField, subDepartment, markAsRead }) => {
 };
 
 export default FileUpload;
-
-
