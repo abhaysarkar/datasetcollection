@@ -239,7 +239,7 @@ const ImageFilesTable = () => {
     return (
         <div className="container-fluid bg-secondary">
             <div className='fixed-top bg-secondary p-1'>
-                <h1 className="mb-2 text-center text-white fw-bold">Audio Files</h1>
+                <h1 className="mb-2 text-center text-white fw-bold">Image Files</h1>
 
                 <div className="row mb-3">
                     <div className="col">
