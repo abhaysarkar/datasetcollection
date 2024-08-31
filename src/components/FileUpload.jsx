@@ -360,6 +360,7 @@ const FileUpload = ({ email, medicalField, subDepartment, markAsRead }) => {
     } finally {
       setLoading(false); // Stop loading
       markAsRead();
+      setSelectedFile(null);
     }
   };
 
