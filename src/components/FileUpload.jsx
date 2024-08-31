@@ -419,7 +419,7 @@ const FileUpload = ({ email, medicalField, subDepartment, markAsRead }) => {
             onChange={handleFileChange}
           />
         </div>
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-center">
           <button onClick={handleUpload} className="btn btn-primary" disabled={loading}>
             {loading ? (
               <>
@@ -430,9 +430,7 @@ const FileUpload = ({ email, medicalField, subDepartment, markAsRead }) => {
               'Upload File'
             )}
           </button>
-          <button onClick={handleCapture} className="btn btn-secondary" disabled={loading}>
-            Capture Image
-          </button>
+          
         </div>
       </div>
     </div>
