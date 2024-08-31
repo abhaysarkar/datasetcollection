@@ -527,7 +527,7 @@ const Login = ({ onVerify }) => {
         ) : (
           <>
             <input
-              type="text"
+              type="number"
               value={otp}
               onChange={(e) => setOtp(e.target.value)}
               placeholder="Enter OTP here"
