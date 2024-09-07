@@ -1,87 +1,87 @@
 {
   "Andhra Pradesh": [
     "Amaravati",
-    "Visakhapatnam",
-    "Vijayawada",
+    "Chittoor",
     "Guntur",
-    "Nellore",
-    "Kakinada",
-    "Tirupati",
-    "Rajamahendravaram",
     "Kadapa",
-    "Chittoor"
+    "Kakinada",
+    "Nellore",
+    "Rajamahendravaram",
+    "Tirupati",
+    "Vijayawada",
+    "Visakhapatnam"
   ],
   "Arunachal Pradesh": [
-    "Itanagar",
-    "Naharlagun",
-    "Tawang",
-    "Pasighat",
     "Bomdila",
-    "Ziro",
-    "Yingkiong",
-    "Tezu",
+    "Changlang",
+    "Itanagar",
     "Lohit",
-    "Changlang"
+    "Naharlagun",
+    "Pasighat",
+    "Tawang",
+    "Tezu",
+    "Yingkiong",
+    "Ziro"
   ],
   "Assam": [
-    "Guwahati",
-    "Dispur",
     "Dibrugarh",
-    "Silchar",
+    "Dispur",
+    "Golaghat",
+    "Guwahati",
+    "Haflong",
     "Jorhat",
     "Karimganj",
     "Nagaon",
-    "Haflong",
-    "Tezpur",
-    "Golaghat"
+    "Silchar",
+    "Tezpur"
   ],
   "Bihar": [
-    "Patna",
-    "Gaya",
+    "Arrah",
+    "Begusarai",
     "Bhagalpur",
+    "Darbhanga",
+    "Gaya",
     "Munger",
     "Muzaffarpur",
+    "Patna",
     "Purnia",
-    "Darbhanga",
-    "Sasaram",
-    "Arrah",
-    "Begusarai"
+    "Sasaram"
   ],
   "Chhattisgarh": [
-    "Raipur",
+    "Ambikapur",
     "Bilaspur",
-    "Korba",
     "Durg",
     "Jagdalpur",
-    "Raigarh",
-    "Ambikapur",
-    "Mahasamund",
+    "Janjgir-Champa",
     "Kanker",
-    "Janjgir-Champa"
+    "Korba",
+    "Mahasamund",
+    "Raigarh",
+    "Raipur"
   ],
   "Goa": [
-    "Panaji",
-    "Margao",
-    "Vasco da Gama",
+    "Cortalim",
+    "Cortalim",
     "Mapusa",
+    "Margao",
+    "Panaji",
     "Ponda",
     "Quepem",
     "Sanguem",
-    "Cortalim",
-    "Cortalim",
-    "Sanquelim"
+    "Sanquelim",
+    "Vasco da Gama"
   ],
   "Gujarat": [
-    "Gandhinagar",
     "Ahmedabad",
-    "Surat",
-    "Vadodara",
-    "Rajkot",
     "Bhavnagar",
+    "Gandhinagar",
+    "Gandhinagar",
     "Jamnagar",
     "Junagadh",
     "Mehsana",
-    "Gandhinagar"
+    "Rajkot",
+    "Surat",
+    "Vadodara"
   ],
   "Haryana": [
     "Bahadurgarh",
@@ -164,28 +164,28 @@
     "Tenu dam-cum-Kathhara"
   ],
   "Karnataka": [
-    "Bengaluru",
-    "Mysuru",
-    "Hubballi-Dharwad",
-    "Belagavi",
-    "Mangaluru",
-    "Shimoga",
     "Bagalkot",
-    "Tumkur",
+    "Belagavi",
+    "Bengaluru",
+    "Chikmagalur",
+    "Hubballi-Dharwad",
     "Kolar",
-    "Chikmagalur"
+    "Mangaluru",
+    "Mysuru",
+    "Shimoga",
+    "Tumkur"
   ],
   "Kerala": [
-    "Thiruvananthapuram",
-    "Kochi",
-    "Kozhikode",
-    "Kollam",
     "Alappuzha",
-    "Thrissur",
-    "Malappuram",
     "Kannur",
-    "Wayanad",
-    "Palakkad"
+    "Kochi",
+    "Kollam",
+    "Kozhikode",
+    "Malappuram",
+    "Palakkad",
+    "Thiruvananthapuram",
+    "Thrissur",
+    "Wayanad"
   ],
   "Madhya Pradesh": [
     "Alirajpur",
@@ -272,40 +272,40 @@
     "Wara Seoni"
   ],
   "Maharashtra": [
+    "Amravati",
+    "Aurangabad",
+    "Kolhapur",
     "Mumbai",
-    "Pune",
     "Nagpur",
     "Nashik",
-    "Aurangabad",
-    "Thane",
-    "Kolhapur",
+    "Pune",
     "Satara",
     "Solapur",
-    "Amravati"
+    "Thane"
   ],
   "Manipur": [
-    "Imphal",
-    "Thoubal",
-    "Churachandpur",
-    "Ukhrul",
-    "Senapati",
     "Bishnupur",
+    "Churachandpur",
+    "Imphal",
     "Jiribam",
-    "Tamenglong",
+    "Kakching",
     "Kangpokpi",
-    "Kakching"
+    "Senapati",
+    "Tamenglong",
+    "Thoubal",
+    "Ukhrul"
   ],
   "Meghalaya": [
-    "Shillong",
-    "Tura",
-    "Jowai",
+    "Baghmara",
     "Bordumsa",
+    "Jowai",
+    "Khliehriat",
     "Mawkyrwat",
     "Nongstoin",
-    "Williamnagar",
     "Resubelpara",
-    "Khliehriat",
-    "Baghmara"
+    "Shillong",
+    "Tura",
+    "Williamnagar"
   ],
   "Mizoram": [
     "Aizawl",
@@ -332,52 +332,52 @@
     "Zunheboto"
   ],
   "Odisha": [
-    "Bhubaneswar",
-    "Cuttack",
-    "Rourkela",
-    "Berhampur",
-    "Sambalpur",
     "Balasore",
     "Bargarh",
-    "Khurda",
+    "Berhampur",
+    "Bhubaneswar",
+    "Cuttack",
     "Jharsuguda",
-    "Nabarangpur"
+    "Khurda",
+    "Nabarangpur",
+    "Rourkela",
+    "Sambalpur"
   ],
   "Punjab": [
-    "Chandigarh",
     "Amritsar",
-    "Ludhiana",
-    "Jalandhar",
-    "Patiala",
-    "Mohali",
     "Bathinda",
+    "Chandigarh",
+    "Fatehgarh Sahib",
     "Hoshiarpur",
+    "Jalandhar",
+    "Ludhiana",
     "Moga",
-    "Fatehgarh Sahib"
+    "Mohali",
+    "Patiala"
   ],
   "Rajasthan": [
-    "Jaipur",
-    "Udaipur",
-    "Jodhpur",
-    "Kota",
-    "Bikaner",
     "Ajmer",
     "Alwar",
+    "Bikaner",
+    "Jaipur",
+    "Jodhpur",
+    "Kota",
+    "Pali",
     "Sikar",
     "Sri Ganganagar",
-    "Pali"
+    "Udaipur"
   ],
   "Sikkim": [
     "Gangtok",
-    "Namchi",
+    "Geyzing",
+    "Jorethang",
     "Mangan",
+    "Namchi",
     "Pelling",
     "Rangpo",
-    "Jorethang",
-    "Yuksom",
+    "Rangpo",
     "Soreng",
-    "Geyzing",
-    "Rangpo"
+    "Yuksom"
   ],
   "Tamil Nadu": [
     "Arakkonam",
@@ -494,28 +494,28 @@
     "Viswanatham"
   ],
   "Telangana": [
+    "Adilabad",
     "Hyderabad",
-    "Warangal",
     "Karimnagar",
-    "Nizamabad",
     "Khammam",
     "Mahbubnagar",
-    "Ramagundam",
+    "Medak",
     "Nalgonda",
-    "Adilabad",
-    "Medak"
+    "Nizamabad",
+    "Ramagundam",
+    "Warangal"
   ],
   "Tripura": [
     "Agartala",
-    "Dharmanagar",
-    "Udaipur",
-    "Kailasahar",
     "Ambassa",
     "Belonia",
+    "Dharmanagar",
     "Jogendranagar",
+    "Kailasahar",
+    "Khowai",
     "Panisagar",
     "Sepahijala",
-    "Khowai"
+    "Udaipur"
   ],
   "Uttar Pradesh": [
     "Achhnera",
@@ -638,27 +638,27 @@
     "Zamania"
   ],
   "Uttarakhand": [
+    "Chamoli",
     "Dehradun",
+    "Haldwani",
     "Haridwar",
     "Nainital",
+    "Pithoragarh",
     "Rishikesh",
     "Roorkee",
-    "Haldwani",
-    "Udham Singh Nagar",
-    "Pithoragarh",
     "Tehri",
-    "Chamoli"
+    "Udham Singh Nagar"
   ],
   "West Bengal": [
-    "Kolkata",
-    "Siliguri",
-    "Howrah",
-    "Durgapur",
     "Asansol",
     "Bardhaman",
-    "Malda",
-    "Kharagpur",
+    "Durgapur",
+    "Haldia",
+    "Howrah",
     "Jalpaiguri",
-    "Haldia"
+    "Kharagpur",
+    "Kolkata",
+    "Malda",
+    "Siliguri"
   ]
 }
