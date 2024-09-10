@@ -456,7 +456,7 @@ const FileUpload = ({ email, medicalField, subDepartment, markAsReadHelper }) =>
 
   const handleUpload = async () => {
     if (!selectedFile || !email || !medicalField || !subDepartment) {
-      alert('Please select an image file.');
+      alert('Please fill in all fields and select a file.');
       return;
     }
 
