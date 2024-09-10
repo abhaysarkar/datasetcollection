@@ -987,7 +987,7 @@ const ImageMain = () => {
                   disabled={!selectedSubDeptId || subDepartments.findIndex(subDept => subDept.id === parseInt(selectedSubDeptId)) === 0}>
                   &larr;
                 </button>
-                <h5 className="mb-0">Description</h5>
+                <h5 className="mb-0">Description {readCount}/{subDepartments.length}</h5>
                 <button
                   className="btn btn-outline-secondary btn-sm"
                   onClick={handleNext}
