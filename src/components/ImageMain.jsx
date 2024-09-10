@@ -741,6 +741,7 @@ const ImageMain = () => {
   const [loading, setLoading] = useState(true);
   const location = useLocation();
   const [email, setEmail] = useState('');
+  const [readCount, setReadCount] = useState('');
 
 
 
@@ -891,6 +892,22 @@ const ImageMain = () => {
 
   console.log("Medical Field Name  " + selectedField?.name || 'None');
   console.log("selected subdepartment name  " + selectedSubDept?.name || 'None');
+
+
+  const countReadSubDepartments = () => {
+      const readCount = subDepartments.filter(subDept =>
+        readSubDepartments.has(`${selectedFieldId}-${subDept.id}`)
+      ).length;
+      console.log(`Number of read sub-departments for field ID ${selectedFieldId}:`, readCount);
+      setReadCount(readCount)
+      return readCount;
+    };
+
+    useEffect(() => {
+      if (selectedFieldId && subDepartments.length > 0) {
+        countReadSubDepartments();
+      }
+    }, [selectedFieldId, readSubDepartments, subDepartments]);
 
 
   return (
